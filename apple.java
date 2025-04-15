@@ -16,7 +16,9 @@ public class apple extends Actor
         }
         if (isTouching(abc.class))
         {
-            getWorld.removeObject(this);
+            Sad sad = new Sad();
+            getWorld().addObject(sad, 300,300);
+            getWorld().removeObject(this);
         }
     }
     public void resetApple()
