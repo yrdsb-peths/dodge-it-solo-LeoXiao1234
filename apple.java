@@ -17,7 +17,7 @@ public class apple extends Actor
         if (isTouching(abc.class))
         {
             Sad sad = new Sad();
-            getWorld().addObject(sad, 300,300);
+            getWorld().addObject(sad, 300,200);
             getWorld().removeObject(this);
         }
     }
